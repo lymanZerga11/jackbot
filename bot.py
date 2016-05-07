@@ -418,7 +418,42 @@ class Card(): #complete
     
 tables=[]
 
+################################################initialization done##############################################
+table1=Table()
+card1=Card()
+table1.tableno=0
+table1.buttonPixelPosition=(281,481)
+table1.yellowPixelPosition=(484,605)
+table1.myPos=(305,477,34,12)
+table1.player1Pos=(35,321,45,21)
+table1.player2Pos=(311, 178,45,21)
+table1.player3Pos=(588, 320,45,21)
+card1.position=(287,503,53,40)                                ###FILL
+card1.pixelposition=(330,506)                               ###FILL
+card2=Card()
+card2.position=(342,503,53,40)                                ###FILL
+card2.pixelposition=(383,506)                              ###FILL
+table1.myCards.append(card1)
+table1.myCards.append(card2)
+allinPositionx=603                                        ###FILL
+allinPositiony=566                                        ###FILL
+table1.allinPixelPosition=(579,566)                               ###FILL
+foldPositionx=469                                        ###FILL
+foldPositiony=566                                        ###FILL 
+table1.allinClickPosition=(allinPositionx,allinPositiony)
+table1.foldClickPosition=(foldPositionx,foldPositiony)
+table1.rightguy1=(538,357,38,39)
+table1.rightguy2=(604,382,38,10)
+table1.nothing1PixelPos=()
+table1.nothing2PixelPos=()
+table1.nothing3PixelPos=()
+table1.button1PixelPos=(137, 326)
+table1.button2PixelPos=(395, 273)
+table1.button3PixelPos=(572, 405)
+tables.append(table1)
 
+
+#########################################################################################################################3
     
         
 
