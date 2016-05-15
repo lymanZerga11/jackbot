@@ -452,6 +452,38 @@ table1.button2PixelPos=(395, 273)
 table1.button3PixelPos=(572, 405)
 tables.append(table1)
 
+table2=Table()
+pcard1=Card()
+table2.tableno=1
+table2.buttonPixelPosition=(959,482)
+table2.yellowPixelPosition=(1169,605)
+table2.myPos=(982,477,34,12)
+table2.player1Pos=(712, 322,45,21)
+table2.player2Pos=(988, 178,45,21)
+table2.player3Pos=(1265, 321,45,21)
+pcard1.position=(965,503,53,40)                           ###FILL
+pcard1.pixelposition=(1007,506)                              ###FILL
+pcard2=Card()
+pcard2.position=(1020,503,53,40)                              ###FILL
+pcard2.pixelposition=(1063,506)                             ###FILL
+table2.myCards.append(pcard1)
+table2.myCards.append(pcard2)
+allinPositionx=1256                                       ###FILL
+allinPositiony=566                                       ###FILL
+table2.allinPixelPosition=(1256,566)                            ###FILL
+foldPositionx=1150                                        ###FILL
+foldPositiony=566                                       ###FILL
+table2.allinClickPosition=(allinPositionx,allinPositiony)
+table2.foldClickPosition=(foldPositionx,foldPositiony)
+table2.rightguy1=(1215,360,39,34)
+table2.rightguy2=(1283,382,38,10)
+table2.nothing1PixelPos=()
+table2.nothing2PixelPos=()
+table2.nothing3PixelPos=()
+table2.button1PixelPos=(822, 326)
+table2.button2PixelPos=(1080, 273)
+table2.button3PixelPos=(1257, 405)
+tables.append(table2)
 
 #########################################################################################################################3
     
